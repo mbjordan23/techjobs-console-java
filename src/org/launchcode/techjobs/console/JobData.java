@@ -67,6 +67,7 @@ public class JobData {
                 String valueLower = value.toLowerCase();
                 if (valueLower.contains(searchLower)) {
                     jobs.add(job);
+                    break;
                 }
             }
         }
